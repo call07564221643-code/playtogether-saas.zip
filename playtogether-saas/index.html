@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="PlayTogether Hub is a micro SaaS platform for inclusive play activity planning for parents, schools, and caregivers." />
+  <title>PlayTogether Hub | Inclusive Play SaaS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="PlayTogether Hub home">
+        <span class="brand-mark">P</span><span>PlayTogether Hub</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-contact.html">About & Contact</a></li>
+          <li class="nav-item"><button class="btn btn-primary rounded-pill ms-lg-2" data-bs-toggle="modal" data-bs-target="#trialModal">Start free pilot</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <section class="hero-section py-5 py-lg-6">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="badge rounded-pill text-bg-light border mb-3">Inclusive play planning for schools, parents and carers</span>
+            <h1 class="display-4 fw-bold mb-3">Play should be a bridge, not a battleground.</h1>
+            <p class="lead text-secondary mb-4">A micro SaaS platform that helps adults choose safe, inclusive activities for neurodiverse, immigrant-origin and mixed-ability children.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-primary btn-lg rounded-pill" href="activities.html">Explore activity library</a>
+              <button class="btn btn-outline-primary btn-lg rounded-pill" data-bs-toggle="modal" data-bs-target="#demoModal">View SaaS dashboard</button>
+            </div>
+            <div class="hero-stats mt-4">
+              <div><strong>3 min</strong><span>plan an activity</span></div>
+              <div><strong>4</strong><span>support needs covered</span></div>
+              <div><strong>100%</strong><span>mobile-friendly</span></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-card shadow-soft">
+              <img class="img-fluid rounded-5" src="https://images.unsplash.com/photo-1607453998774-d533f65dac99?auto=format&fit=crop&w=1100&q=80" alt="Children playing with colourful learning blocks together" />
+              <div class="floating-note shadow-soft">
+                <strong>Today’s safer play prompt</strong>
+                <p class="mb-0">Offer choices, allow “pass”, and watch for distress before correcting behaviour.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-soft">
+      <div class="container">
+        <div class="section-heading text-center mx-auto mb-5">
+          <span class="eyebrow">Micro SaaS model</span>
+          <h2 class="fw-bold">One platform, three simple user journeys</h2>
+          <p class="text-secondary">Designed for adults who need fast guidance, not long theory.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="feature-card h-100">
+              <div class="icon-bubble">1</div>
+              <h3>Choose a child profile</h3>
+              <p>Select age, group size, language confidence, sensory needs and energy level.</p>
+              <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#profileModal">See profile example</button>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="feature-card h-100">
+              <div class="icon-bubble">2</div>
+              <h3>Generate activity cards</h3>
+              <p>Get step-by-step activities with inclusion tips, low-power choices and safety notes.</p>
+              <a class="btn btn-link p-0" href="activities.html">Open cards</a>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="feature-card h-100">
+              <div class="icon-bubble">3</div>
+              <h3>Share with adults</h3>
+              <p>Export a simple plan for teachers, teaching assistants, parents or community leaders.</p>
+              <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#shareModal">View sharing flow</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <span class="eyebrow">Why it matters</span>
+            <h2 class="fw-bold">Inclusive play reduces misunderstanding before it becomes exclusion.</h2>
+            <p class="text-secondary">PlayTogether Hub reframes behaviour as communication. Adults receive practical prompts for de-escalation, emotional safety and shared participation.</p>
+            <a href="about-contact.html" class="btn btn-outline-primary rounded-pill">Read the mission</a>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-sm-6"><div class="insight-card"><strong>Choice before pressure</strong><span>Children can pass, pause or choose another role.</span></div></div>
+              <div class="col-sm-6"><div class="insight-card"><strong>Visual first guidance</strong><span>Helpful for language differences and neurodiverse needs.</span></div></div>
+              <div class="col-sm-6"><div class="insight-card"><strong>Adult scripts</strong><span>Simple phrases to calm conflict without shame.</span></div></div>
+              <div class="col-sm-6"><div class="insight-card"><strong>Safeguarding lens</strong><span>Spot distress, isolation, bullying or unsafe dynamics early.</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-3">
+      <p class="mb-0">© 2026 PlayTogether Hub. Educational front-end micro SaaS concept.</p>
+      <div class="footer-links"><a href="activities.html">Activities</a><a href="about-contact.html">Contact</a></div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="trialModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content rounded-5"><div class="modal-header"><h2 class="modal-title h5">Start free pilot</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><p>Choose one class, club or family group and test inclusive play planning for 14 days.</p><a class="btn btn-primary rounded-pill" href="about-contact.html#contact">Request access</a></div></div></div></div>
+  <div class="modal fade" id="demoModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content rounded-5"><div class="modal-header"><h2 class="modal-title h5">SaaS dashboard preview</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="dashboard-preview"><div><strong>Activity match</strong><span>Choice Jar • Ages 6–10 • Low sensory load</span></div><div><strong>Risk flag</strong><span>Watch for withdrawal, silence, freezing or repeated refusal.</span></div><div><strong>Adult script</strong><span>“You can pass. You are still part of the game.”</span></div></div></div></div></div></div>
+  <div class="modal fade" id="profileModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content rounded-5"><div class="modal-header"><h2 class="modal-title h5">Profile example</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><p><strong>Age:</strong> 8 · <strong>Group:</strong> 5 children · <strong>Need:</strong> low-pressure, visual choice, movement break.</p></div></div></div></div>
+  <div class="modal fade" id="shareModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content rounded-5"><div class="modal-header"><h2 class="modal-title h5">Sharing flow</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><p>Send a one-page activity plan to a teacher, parent or teaching assistant with steps, roles, inclusion tips and safeguarding notes.</p></div></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
